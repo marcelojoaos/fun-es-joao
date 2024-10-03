@@ -80,6 +80,15 @@ const perguntas = [
  function mostraPergunta(){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    mostrarAlternativas()
 
+ }
+
+ function mostraPerguntas(){
+    for(const alternativas of perguntaAtual.alternativas){
+        const botaoAlternativas = document.createElement("Button");
+        botaoAlternativas.textContent = alternativas.text;
+        caixaAlternativas.appendChild(botaoAlternativas);
+    }
  }
 
