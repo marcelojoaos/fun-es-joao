@@ -8,7 +8,7 @@ const textoResultado= document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Voçê está em dúvida aonde passar o fim de semana. devo ir para?",
+        enunciado: "Voçê está em dúvida aonde passar o fim de semana. Devo ir para?",
         alternativas: [
             {
                 texto: " Um lugar tranquilo",
@@ -80,6 +80,6 @@ const perguntas = [
  function mostraPergunta(){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    
+
  }
 
