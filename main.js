@@ -81,6 +81,7 @@ const perguntas = [
  function mostraPergunta(){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
     mostrarAlternativas()
 
  }
@@ -99,6 +100,6 @@ const perguntas = [
     const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal = afirmacoes;
     atual++;
-    mostraPergunta
+    mostraPergunta()
 
   }
