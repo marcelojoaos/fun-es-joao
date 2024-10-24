@@ -104,4 +104,4 @@ function respostaSelecionada(opcaoSelecionada) {
 
 }
 
-mostraPergunta
+mostraPergunta();
