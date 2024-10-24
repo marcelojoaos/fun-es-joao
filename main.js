@@ -38,7 +38,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Sim ",
-                afirmacao: " Você é umA pessoa que se sente bem com animais e gosta do carinho. ",
+                afirmacao: " Você é uma pessoa que se sente bem com animais e gosta do carinho que eles dão para você. ",
             },
             {
                 texto: " Não ",
