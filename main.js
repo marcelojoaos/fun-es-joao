@@ -78,16 +78,21 @@ let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
-function mostraPergunta() {
-    perguntaAtual = perguntas[atual];
+function mostraPergunta(){
+if(atual >= perguntas.length){
+    mostraResultado();
+    return;
+}
+    
+perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
-    mostraAlternativas()
+    mostraAlternativas();
 
 }
 
-function mostraAlternativas() {
-    for (const alternativa of perguntaAtual.alternativas) {
+function mostraAlternativas(){
+    for (const alternativa of perguntaAtual.alternativas){
         const botaoAlternativas = document.createElement("Button");
         botaoAlternativas.textContent = alternativa.texto;
         caixaAlternativas.appendChild(botaoAlternativas);
@@ -98,9 +103,15 @@ function mostraAlternativas() {
 
 function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal = afirmacoes;
+    historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta()
+
+}
+function mostraResultado(){
+caixaPerguntas.textContent = "Em 2049..."
+textoResultado.textContent = historiaFinal;
+caixaAlternativas.textContent = "";
 
 }
 
