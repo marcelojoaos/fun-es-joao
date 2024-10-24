@@ -12,63 +12,63 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Um lugar tranquilo",
-                afirmacao: " Afirmação ",
+                afirmacao: " Você prefere um lugar calmo, com poucas pessoas. ",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Um lugar agitado ",
+                afirmacao: " Você prefere um lugar movimentado, com várias pessoas. ",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: " Qual seu gosto de paisagem?",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Natural ",
+                afirmacao: " Você parece ter gostos para a natureza e campos. ",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Urbanizado ",
+                afirmacao: " você parece ter gosto para cidades e urbanismo; ",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: " Prefere contatpo com animais?",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Sim ",
+                afirmacao: " Você é umA pessoa que se sente bem com animais e gosta do carinho. ",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Não ",
+                afirmacao: " Você não gosta de animais, ou tem medo deles. ",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: " Qual tipo de piscina você prefere?",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Naturais ",
+                afirmacao: " Você prefere cachoeiras, rios e lagos. ",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Sintéticas ",
+                afirmacao: " você prefere parques aquáticos. ",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: " Qual seu gosto para passar a noite?",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: "Afirmação",
+                texto: " Cabanas e barracas ",
+                afirmacao: "Você vai ter uma paisagem para a natureza e uma noite tranquila",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Hotéis ",
+                afirmacao: " Você vai ter uma visão para urbanismo. ",
             }
         ]
     },
