@@ -12,11 +12,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Um lugar tranquilo",
-                afirmacao: " Você prefere um lugar calmo, com poucas pessoas. ",
+                afirmacao: " Você prefere um lugar calmo, com poucas pessoas; ",
             },
             {
                 texto: " Um lugar agitado ",
-                afirmacao: " Você prefere um lugar movimentado, com várias pessoas. ",
+                afirmacao: " Você prefere um lugar movimentado, com várias pessoas; ",
             }
         ]
     },
@@ -25,11 +25,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Natural ",
-                afirmacao: " Você parece ter gostos para a natureza e campos. ",
+                afirmacao: " Você parece ter gostos para a natureza e campos; ",
             },
             {
                 texto: " Urbanizado ",
-                afirmacao: " você parece ter gosto para cidades e urbanismo; ",
+                afirmacao: " Você parece ter gosto para cidades e urbanismo; ",
             }
         ]
     },
@@ -38,11 +38,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Sim ",
-                afirmacao: " Você é uma pessoa que se sente bem com animais e gosta do carinho que eles dão para você. ",
+                afirmacao: " Você é uma pessoa que se sente bem com animais e gosta do carinho que eles dão para você; ",
             },
             {
                 texto: " Não ",
-                afirmacao: " Você não gosta de animais, ou tem medo deles. ",
+                afirmacao: " Você não gosta de animais, ou tem medo deles; ",
             }
         ]
     },
@@ -51,11 +51,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Naturais ",
-                afirmacao: " Você prefere cachoeiras, rios e lagos. ",
+                afirmacao: " Você prefere cachoeiras, rios e lagos; ",
             },
             {
                 texto: " Sintéticas ",
-                afirmacao: " você prefere parques aquáticos. ",
+                afirmacao: " você prefere parques aquáticos; ",
             }
         ]
     },
@@ -64,11 +64,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Cabanas e barracas ",
-                afirmacao: "Você vai ter uma paisagem para a natureza e uma noite tranquila",
+                afirmacao: "Você vai ter uma paisagem para a natureza e uma noite tranquila;",
             },
             {
                 texto: " Hotéis ",
-                afirmacao: " Você vai ter uma visão para urbanismo. ",
+                afirmacao: " Você vai ter uma visão para urbanismo; ",
             }
         ]
     },
