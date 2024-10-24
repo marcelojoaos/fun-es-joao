@@ -1,8 +1,8 @@
-const caixaPrincipal= document.querySelector(".caixa-principal");
-const caixaPerguntas= document.querySelector(".caixa-perguntas");
-const caixaAlternativas= document.querySelector(".caixa-alternativas");
-const caixaResultado= document.querySelector(".caixa-resultado");
-const textoResultado= document.querySelector(".texto-resultado");
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 
 
 
@@ -74,32 +74,34 @@ const perguntas = [
     },
 ];
 
- let atual = 0;
- let perguntaAtual;
- let historiaFinal = "";
+let atual = 0;
+let perguntaAtual;
+let historiaFinal = "";
 
- function mostraPergunta(){
+function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
-    mostrarAlternativas()
+    mostraAlternativas()
 
- }
+}
 
- function mostraPerguntas(){
-    for(const alternativas of perguntaAtual.alternativas){
+function mostraAlternativas() {
+    for (const alternativas of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("Button");
         botaoAlternativas.textContent = alternativas.text;
         caixaAlternativas.appendChild(botaoAlternativas);
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
- }
+}
 
-  function respostaSelecionada(opcaoSelecionada){
+function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal = afirmacoes;
     atual++;
     mostraPergunta()
 
-  }
+}
+
+mostraPergunta
