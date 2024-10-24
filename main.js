@@ -34,7 +34,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: " Prefere contatpo com animais?",
+        enunciado: " Prefere contato com animais?",
         alternativas: [
             {
                 texto: " Sim ",
